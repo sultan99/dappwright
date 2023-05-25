@@ -26,6 +26,7 @@ export async function launch(browserName: string, options: OfficialOptions): Pro
     {
       headless: false,
       args: browserArgs,
+      executablePath: officialOptions,
     },
   );
 
